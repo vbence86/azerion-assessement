@@ -1,3 +1,11 @@
+/**
+ * Returns the chance of rain based on the given parameters 
+ *
+ * @param {number} pressure
+ * @param {number} temperature
+ * @param {number} amount
+ * @returns {object} - {lower_bound: number, mean: number, upper_bound: number}
+ */
 export const chanceOfRain = (pressure, temperature, amount) => {
 	const score = Math.log(amount + 1) * Math.log(pressure - 929) * Math.log(temperature - 8);
 	const mean = Math.min(Math.max(score, 0), 100);

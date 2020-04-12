@@ -1,3 +1,6 @@
+// entry point to provide single line import for all
+// implementations in the components folder
+
 import TemperatureSlider from './TemperatureSlider';
 import PressureSlider from './PressureSlider';
 import ChanceOfRainChart from './ChanceOfRainChart';
