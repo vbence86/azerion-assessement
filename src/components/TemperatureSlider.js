@@ -9,8 +9,9 @@ const toAria = value => `${value}°C`;
 
 const TemperatureSlider = props =>
   <GreenSlider
+    {...props}
     title={TITLE}
-    defaultValue={20}
+    defaultValue={MIN_TEMPERATURE}
     getAriaValueText={toAria}
     aria-labelledby="discrete-slider-custom"
     step={1}

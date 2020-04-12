@@ -7,6 +7,7 @@ const MAX_PRESSURE = 1030;
 
 const PressureSlider = props =>
   <GreenSlider
+  	{...props}
     title={TITLE}
     defaultValue={MIN_PRESSURE}
     aria-labelledby="discrete-slider-custom"
