@@ -69,7 +69,7 @@ const ChanceOfRainChart = (props) => {
           <CartesianGrid strokeDasharray="2 2" />
           <Tooltip />
           <Area type="monotone" dataKey="range" stroke="#ee84d8" fillOpacity={1} fill="url(#colorGrad)" />
-          <Line type="monotone" dataKey="mean" stroke="#8884d8"/>
+          <Line type="monotone" strokeWidth={2} dataKey="mean" stroke="#8884d8"/>
         </ComposedChart>
       </ResponsiveContainer>
     </div>
