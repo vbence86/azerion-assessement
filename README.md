@@ -5,6 +5,17 @@ This is an assessment task for the Senior Frontend Developer role at Azerion.
 We want to implement an awesome new weather dashboard for our clients. Please help us designing and implementing the frontend. Specifically, we need a tiny dashboard providing information about the expected rainfall in the upcoming days. It is called the “weather service dashboard”.
 The weather service dashboard consist of two sliders („pressure“ and „temperature“) and two charts („chance of rain“ and „amount of rainfall“).
 
+![ezgif com-video-to-gif (10)](https://user-images.githubusercontent.com/6104164/79104373-bed92d80-7d6e-11ea-84b2-6e0d19ab07ce.gif)
+
+## Install
+```js
+git clone [PROJECT_URL]
+cd azerion-assessement
+npm install
+-- or --
+yarn install
+```
+
 ## Scripts
 
 In the project directory, you can run:
