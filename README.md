@@ -1,7 +1,7 @@
 ## Summary
-This is an assessment task for the Senior Frontend Developer role at Azerion. 
+This is an assessment task for the Senior Frontend Developer role at Azerion. I employed `create-react-app` scaffolding tool to generate a blank React application to begin with. I populated this React application with custom components and business logic that implement the required functionalities and application behaviour the assessement specification describes. Check `package.json` for the used tools and libraries.
 
-**Exercuse**
+#### Exercise
 We want to implement an awesome new weather dashboard for our clients. Please help us designing and implementing the frontend. Specifically, we need a tiny dashboard providing information about the expected rainfall in the upcoming days. It is called the “weather service dashboard”.
 The weather service dashboard consist of two sliders („pressure“ and „temperature“) and two charts („chance of rain“ and „amount of rainfall“).
 
