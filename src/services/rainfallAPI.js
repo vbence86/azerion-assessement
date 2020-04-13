@@ -18,7 +18,7 @@ const fetch = async () => {
 
 /**
  * Fetches the remote service and returns a Promise that is
- * resolved with an array incorporating the amounts in a day-by-day split
+ * resolved with an array incorporating the amounts in a daily split
  *
  * @returns {Promise}
  */

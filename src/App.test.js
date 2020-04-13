@@ -2,8 +2,14 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders Temperature slider', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const temperatureElm = getByText(/Temperature/i);
+  expect(temperatureElm).toBeInTheDocument();
+});
+
+test('renders Pressure slider', () => {
+  const { getByText } = render(<App />);
+  const pressureElm = getByText(/Pressure/i);
+  expect(pressureElm).toBeInTheDocument();
 });
